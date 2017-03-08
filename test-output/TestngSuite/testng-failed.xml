@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TestngSuite]" parallel="methods">
+  <test name="Default test(failed)" parallel="methods">
+    <classes>
+      <class name="com.test.TestngExample">
+        <methods>
+          <include name="TestNgFail"/>
+          <include name="beforesuite"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.test.TestngExample -->
+      <class name="com.test.TestngExample2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.test.TestngExample2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [TestngSuite] -->
