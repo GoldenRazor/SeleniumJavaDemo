@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  */
 public class SeleniumExample {
     public static void main(String[] args) {
-
+        System.setProperty("webdriver.gecko.driver", "C:\\Windows\\System32\\geckodriver.exe");
         WebDriver driver = new FirefoxDriver();
    //     WebDriver driver = new ChromeDriver();
 
