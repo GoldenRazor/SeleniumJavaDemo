@@ -29,7 +29,7 @@ public class SeleniumExample {
 
         WebDriverWait wait = new WebDriverWait(driver, 10);
 
-        WebElement we = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='tsf']/div[2]/div[3]/center/input[1]")));
+        WebElement we = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='lst-ib']")));
         // Now submit the form. WebDriver will find the form for us from the element
         we.click();
 
